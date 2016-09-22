@@ -1,0 +1,40 @@
+.section {
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+#content {
+	margin-top:50px;
+	padding: 0px 15px;
+}
+
+.faq {
+	margin-bottom: 30px;
+}
+
+p {
+  margin-bottom: 0px;
+}
+
+.question {
+  font-weight: 500;
+}
+
+.category-title {
+  margin-bottom: 20px;
+}
+
+.caption {
+	font-size: 16px;
+	letter-spacing: 1px;
+}
+
+#rush-flyer {
+	width: 75%;
+	height: auto;
+}
+
+.sponsors {
+	margin-left: 5%;
+	margin-right: 5%;
+}

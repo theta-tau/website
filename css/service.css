@@ -1,0 +1,41 @@
+.service-nav {
+	padding-top: 100px;
+}
+
+.service-nav a {
+  transition: all 0.3s;
+}
+
+.category-title{
+	margin-bottom: 20px;
+	margin-top: 120px;
+}
+
+.subcategory-title {
+  margin-top:20px;
+  margin-bottom: 0px;
+}
+
+.event {
+	margin-bottom: 50px;
+}
+
+.mentorship-content {
+
+}
+
+.carousel-control {
+	color:black;
+  text-shadow: 0 0px 0px;
+  width:5%;
+}
+.carousel-control {
+    background-image: none !important; /* remove background gradients on controls */
+    z-index:10;
+}
+.carousel-control li {
+  background-color: #000000;
+}
+.carousel-control .active {
+  color: #000000;
+}

@@ -1,0 +1,45 @@
+#parallax { 
+    background: url('http://i.imgur.com/R5EA5yT.jpg') 100% 0 fixed;
+    background-size: cover;
+    margin: 0 auto; 
+    width: 100%; 
+    position: relative; 
+    box-shadow:none;
+    padding: 100px 0;
+}
+#content { 
+    height: auto;  
+    margin: 0 auto; 
+    width: 100%; 
+    position: relative; 
+    box-shadow: none;
+}
+
+@media (min-width:400px) {
+    #parallax {
+        height: 200px;  
+    }
+}
+
+@media (min-width:500px) {
+    #parallax {
+        height: 300px;  
+    }
+}
+
+@media (min-width:992px) {
+    #parallax {
+        height: 400px; 
+    }
+}
+
+@media (min-width:1200px) {
+    #parallax {
+        height: 500px;  
+    }
+}
+
+.category-title {
+    margin-top:100px;
+    margin-bottom: 50px;
+}
