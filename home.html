@@ -4,26 +4,26 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
 		<meta charset="utf-8">
-	    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	    <!-- Bootstrap -->
+		<!-- Bootstrap -->
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-	    <!-- Fonts -->
+		<!-- Fonts -->
 		<link href='http://fonts.googleapis.com/css?family=Alegreya+Sans+SC:300' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Palanquin:100' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Roboto:100, 300, 400' rel='stylesheet' type='text/css'>
 
 		<!-- Personalized Script Files -->
 		<link type="text/css" rel="stylesheet" href="css/stylesheet.css"/>
-	    <link type="text/css" rel="stylesheet" href="css/home.css"/>
+		<link type="text/css" rel="stylesheet" href="css/home.css"/>
 		<script src="js/navbar.js"></script>
-	    
-	    <!-- Font Awesome -->
-	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-	    
-	    <title>Theta Tau Upsilon Delta</title>
+		
+		<!-- Font Awesome -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		
+		<title>Theta Tau Upsilon Delta</title>
 	</head>
 	<body>
 		<!--///////////////////////////////////
@@ -47,10 +47,10 @@
 			<nav class="navbar navbar-custom navbar-colortest navbar-static">
 				<div class="container-fluid">
 					<div class="navbar-header">
-				      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-				        <i class="fa fa-bars fa-2x"></i>
-				      </button>
-				    </div>
+					  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<i class="fa fa-bars fa-2x"></i>
+					  </button>
+					</div>
 					<div class="navbar-collapse collapse home-nav" id="myNavbar">
 						<ul id="home-nav" class="nav navbar-nav navbar-right">
 							<li><a href="home.html">HOME</a></li>
@@ -68,9 +68,6 @@
 									</li>
 									<li>
 										<a href="alumni.html">alumni</a>
-									</li>
-									<li>
-										<a href="familytree.html">family tree</a>
 									</li>
 								</ul>
 							</li>
@@ -90,7 +87,17 @@
 									</li>
 								</ul>
 							</li>
-							<li><a href="brotherhood.html">BROTHERHOOD</a></li>
+							<li class="dropdown">
+								<a class="dropdown-toggle" aria-expanded="false" aria-haspopup="false" role="button" data-toggle="dropdown" href="#">BROTHERHOOD</a>
+								<ul class="dropdown-menu pull-center">
+									<li>
+										<a href="brotherhood.html">brotherhood</a>
+									</li>
+									<li>
+										<a href="familytree.html">family tree</a>
+									</li>
+								</ul>
+							</li>
 						</ul>
 					</div>
 				</div>
@@ -101,49 +108,49 @@
 			// slideshow
 			///////////////////////////////////-->
 		<div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
-		  	<!-- Indicators -->
-		  	<ol class="carousel-indicators">
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
 				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 				<li data-target="#myCarousel" data-slide-to="1"></li>
 				<li data-target="#myCarousel" data-slide-to="2"></li>
 				<li data-target="#myCarousel" data-slide-to="3"></li>
 				<li data-target="#myCarousel" data-slide-to="4"></li>
-		  	</ol>
+			</ol>
 
-		  	<!-- Wrapper for slides -->
-		  	<div class="carousel-inner" role="listbox">
-			    <div class="active item">
-			      	<img src="home/1.jpg">
-			    </div>
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner" role="listbox">
+				<div class="active item">
+					<img src="home/1.jpg">
+				</div>
 
-			    <div class="item">
-			      	<img src="home/2.jpg">
-			    </div>
+				<div class="item">
+					<img src="home/2.jpg">
+				</div>
 
-			    <div class="item">
-			      	<img src="home/3.jpg">
-			    </div>
+				<div class="item">
+					<img src="home/3.jpg">
+				</div>
 
-			    <div class="item">
-			      	<img src="home/4.jpg">
-			    </div>
+				<div class="item">
+					<img src="home/4.jpg">
+				</div>
 
-			    <div class="item">
-			      	<img src="home/5.jpg">
-			    </div>
-		  	</div>
+				<div class="item">
+					<img src="home/5.jpg">
+				</div>
+			</div>
 
-		  	<!-- Left and right controls -->
-		  	<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-		  		<!--<i class="fa fa-angle-left fa-3x"></i>-->
-		    	<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-		    	<span class="sr-only">Previous</span>
-		  	</a>
-		  	<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-		  	<!--<i class="fa fa-angle-right fa-3x"></i>-->
-		    	<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-		    	<span class="sr-only">Next</span>
-		  	</a>
+			<!-- Left and right controls -->
+			<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+				<!--<i class="fa fa-angle-left fa-3x"></i>-->
+				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+			<!--<i class="fa fa-angle-right fa-3x"></i>-->
+				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
 		</div>
 
 		<!--///////////////////////////////////
@@ -181,7 +188,7 @@
 						<a href="prodev.html"><i class="fa fa-university fa-5x"></i></a>
 					</div>
 					<div class="pillar">
-						<p>PROFESSION</p>
+						<p>PROFESSIONAL DEVELOPMENT</p>
 						We also seek to shape up one's professional interests to prepare them for their life ahead of college. We plan various networking opportunities as well as events that provide a sneak peek at different professional careers.
 					</div>
 				</div>
@@ -210,7 +217,7 @@
 					Theta Tau is built upon core values that aim to<br>
 					strengthen both professional and fraternal bonds between members.
 					</p>
-	            </div>
+				</div>
 			</div>
 		</div>
 
